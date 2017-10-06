@@ -6,6 +6,12 @@
       ],
       "main": true
     },
+    "portfoliojs.js": {
+      "files": [
+          "scripts/portfoliojs.js"
+      ]
+  },
+
     "main.css": {
       "files": [
         "styles/main.scss"

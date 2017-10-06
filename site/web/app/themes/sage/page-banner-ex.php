@@ -20,4 +20,7 @@
     <?php endwhile;?>
 <?php endif; ?>
 
-<?php colons replace bracket in php ?>
+<?php /////colons replace bracket in php ?>
+
+
+<?php ///static is permanent and is changed in the code///dynamic are if changes take place in admin?>

@@ -1,18 +1,261 @@
 $primary-color: #A76100
 
+html 
+    font-family: 'Belgrano', serif
+   
 
-section
+
+.home-banner
     background-color: $primary-color
     color: $primary-color
-    height: 500px
+    height: 46em
     width: 100%
-.home-banner
+    position: relative
+
+    img
+        width: 24%
+        height: 21.25em
+        float: left
+        margin:  5%
+        margin-top: 10em
+        
+    p
+        color: black
+        font-family: 'Belgrano', serif
+
+.aboutMe 
+    height: 31.25em
+    width: 100%
+    clear: both
+
+    .amDiv
+        width: 45%
+        height: 31.25em
+        float: left
+        margin-top: 3em
+        margin-left: 4em
+        
+        h1
+            color: white
+            font-size: 36px
+            margin-top: 2.5em
+        
+        p 
+            color: white 
+            font-size: 18px
+           
+        // display: none
+//////////////////////////////////////////
+.myWork
+    width: 80%
+    height: 4.5em
+    position: absolute
+    top: 18em
+    left: 10%
+    background-color: white
+    box-shadow: 10px 5px 5px black
+
+    
+
+    h2 
+    text-align: center
+    font-size: 2em
+    color: $primary-color
+    margin-top: 6%
+
+.projects
+    height: 100em
+    width: 100%
+    
+
+    .projectDiv
+        height: 32em
+        width: 40%
+        margin-left: 7%
+        position: relative
+        top: 15em
+        float: left
+        margin-bottom: 5%
+        box-shadow: 10px 5px 5px black
+
+        .projectPic
+            width: 100%
+            height: 60%
+            object-fit: cover
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center center
+
+        h2  
+            text-align: center
+
+        p  
+            padding-left: 1em
+            padding-right: 1em   
+
+
+        .drumKit
+                background-image: url("http://tim-portfolio.dev/app/uploads/2017/10/drumkit.png")
+                object-fit: cover
+                background-size: cover
+                background-repeat: no-repeat
+                background-position: center center
+        
+        .techCrunch
+                background-image: url("http://tim-portfolio.dev/app/uploads/2017/10/techCrunch.png")
+        .slate
+            background-image: url("http://tim-portfolio.dev/app/uploads/2017/10/slate.png")
+        .nyTimes
+            background-image: url("http://tim-portfolio.dev/app/uploads/2017/10/nyTimes.png")
+   
+        .firstButton
+                button      
+                    background-color: white
+                    right: 0
+
+        button
+            position: absolute
+            bottom: 0
+            width: 50%
+            float: left
+            background-color: $primary-color
+            height: 3.3rem
+            font-size: 1em
+
+            .height
+                height: 6em
+            .fa
+                margin-left: .5em
+        
+// @media only screen and (max-width: 768px)
+//     .projects
+//         position: absolute
+//         height: 168em
+//         width: 100%
+            
+//         .projectDiv
+//             // float: none
+//             width: 100%
+//             margin: 0
+//             margin-top: 2em
+                
+            
+            
+            
+            // .projects
+            //     position: absolute
+            //     height: 168em
+            //     width: 100%
+            
+            //     .projectDiv
+            //         float: none
+            //         width: 100%
+            //         margin: 0
+            //         margin-top: 2em
+            //         //////////////
+            
+            
+/////////////////////////////
+.contact
+    height: 40em
+    width: 100%
+    background-color: $primary-color
+
+    .contactMe  
+        width: 80%
+        height: 6.5em
+        box-shadow: 10px 5px 5px black
+        position: absolute
+        background-color: white      
+        margin-left: 10%
+        margin-top: -4%
+       
+
+        h2
+            text-align: center
+            color: $primary-color
+            text-align: center
+            font-size: 3em
+            position: relative
+            bottom: 30px
+
+    .contactForm
+        .row
+            position: relative
+            text-align: center
+            display: inline-block
+ 
+        .button
+             text-align: center
+             width: 20em
+             margin-left: 35em
+
+             #submit_button
+             
+        
+        .input
+            width: 26em
+            display: inline-block
+            text-align: center
+            height: 2em
+            margin-bottom: 1em
+
+        #name       
+            margin-top: 15em
+            margin-left: 40em
+            
+        h3
+            position: relative
+            top: 8em
+            text-align: center
+
+        #message 
+            height: 18em
+            width: 53em
+            margin-left: 40em
+
+    .links
+        float: right
+        float: right
+        margin-top: 6em
+        margin-right: 4em
+
+@media only screen and (max-width: 768px)
+    .home-banner
+        height: 75em
         img
-           margin-left: 300px
-           width: 300px
-           height: 300px
+            float: none
+            width: 50%
+            margin-left: 25%
 
+    .aboutMe
+        .amDiv
+            width: 80%
+            height: 31.25em
+            text-align: center
+            margin-left: 10%
+            margin-top: -5em
 
+    .myWork
+        top: 38em
 
+    .projects
+        position: absolute
+        height: 168em
+        width: 100%
+            
+        .projectDiv
+            float: none
+            width: 100%
+            margin: 0
+            margin-top: 2em
+    .contact
+        display: none
+        .contactMe    
+            .contactForm
+                margin-top: 156em
 
+        
+   
 
+        
