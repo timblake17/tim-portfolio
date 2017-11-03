@@ -78,6 +78,8 @@ $projects_query = new WP_Query($arguments);
            <a href="https://timblake17.github.io/slate/"><button>View Project</button></a>
     </div>
 </section>
+       <!-- ////////////////////////////// -->
+      
 <!-- /////////////contact me -->
 <section class="contact">
 <a name="contact"><section class="contactMe"></a>
@@ -104,11 +106,11 @@ $projects_query = new WP_Query($arguments);
 
     <section>
 <section class="links">
-<a href=""><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>
+<a href="https://www.linkedin.com/in/timblakedev/"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>
 </a>
-<a href=""><i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+<a href="https://twitter.com/timBlake17x"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
 </a>
- <a href=""><i class="fa fa-github fa-3x" aria-hidden="true"></i>
+ <a href="https://github.com/timblake17"><i class="fa fa-github fa-3x" aria-hidden="true"></i>
 </a>
 </section>
     </section>
